@@ -129,7 +129,7 @@ module.exports = {
         'no-floating-decimal': 0, // disallow the use of leading or trailing decimal points in numeric literals (off by default)
         'no-implicit-coercion': 2, // keywords outside of classes or class-like objects
         'no-implied-eval': 2, // disallow use of eval()-like methods
-        'no-invalid-this': 2, //
+        'no-invalid-this': 0, //
         'no-iterator': 2, // disallow usage of __iterator__ property
         'no-labels': 0, // disallow use of labeled statements
         'no-lone-blocks': 2, // disallow unnecessary nested blocks
