@@ -310,7 +310,7 @@ module.exports = {
         'object-shorthand': 0, // require method and property shorthand syntax for object literals
         'prefer-arrow-callback': 0, // suggest using arrow functions as callbacks
         'prefer-const': 1, // suggest using const declaration for variables that are never modified after declared
-        'prefer-reflect': 2, // suggest using Reflect methods where applicable
+        'prefer-reflect': 0, // suggest using Reflect methods where applicable
         'prefer-spread': 2, // suggest using the spread operator instead of .apply()
         'prefer-template': 2, // suggest using template literals instead of strings concatenation
         'require-yield': 2, //  disallow generator functions that do not have yield
