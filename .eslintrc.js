@@ -10,7 +10,7 @@ module.exports = {
         'destructuring': false, // enable destructuring
         'forOf': true, // enable for-of loops
         'generators': true, // enable generators
-        'modules': true, // enable modules and global strict mode
+        'modules': false, // enable modules and global strict mode
         'objectLiteralComputedProperties': false, // enable computed object literal property names
         'objectLiteralDuplicateProperties': false, // enable duplicate object literal properties in strict mode
         'objectLiteralShorthandMethods': false, // enable object literal shorthand methods
