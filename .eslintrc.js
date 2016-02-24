@@ -67,10 +67,7 @@ module.exports = {
         'require': true
     },
 
-    'plugins': [
-        // e.g. 'react' (must run `npm install eslint-plugin-react` first)
-        'react'
-    ],
+    'plugins': [],
 
     'rules': {
 
