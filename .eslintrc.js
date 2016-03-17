@@ -210,7 +210,7 @@ module.exports = {
         'array-bracket-spacing': 0, // enforce spacing inside array brackets (fixable)
         'block-spacing': 0, // disallow or enforce spaces inside of single line blocks (fixable)
         'brace-style': 2, // enforce one true brace style (off by default)
-        'camelcase': 2, // require camel case names
+        'camelcase': 0, // require camel case names
         'comma-spacing': 0, // enforce spacing before and after comma
         'comma-style': 1, // enforce one true comma style (off by default)
         'computed-property-spacing': 0, // require or disallow padding inside computed properties (fixable)
