@@ -118,7 +118,6 @@ module.exports = {
         'no-case-declarations': 2, // disallow lexical declarations in case clauses
         'no-div-regex': 2, // disallow division operators explicitly at beginning of regular expression (off by default)
         'no-else-return': 2, // disallow else after a return in an if (off by default)
-        'no-empty-label': 2, // disallow use of labels for anything other then loops and switches
         'no-empty-pattern': 2, // disallow use of empty destructuring patterns
         'no-eq-null': 0, // disallow comparisons to null without a type-checking operator (off by default)
         'no-eval': 2, // disallow use of eval()
@@ -130,7 +129,7 @@ module.exports = {
         'no-implied-eval': 2, // disallow use of eval()-like methods
         'no-invalid-this': 0, //
         'no-iterator': 2, // disallow usage of __iterator__ property
-        'no-labels': 0, // disallow use of labeled statements
+        'no-labels': 2, // disallow use of labeled statements
         'no-lone-blocks': 2, // disallow unnecessary nested blocks
         'no-loop-func': 2, // disallow creation of functions within loops
         'no-magic-numbers': 1, // disallow the use of magic numbers
@@ -210,7 +209,7 @@ module.exports = {
         'array-bracket-spacing': 0, // enforce spacing inside array brackets (fixable)
         'block-spacing': 0, // disallow or enforce spaces inside of single line blocks (fixable)
         'brace-style': 2, // enforce one true brace style (off by default)
-        'camelcase': 0, // require camel case names
+        'camelcase': 2, // require camel case names
         'comma-spacing': 0, // enforce spacing before and after comma
         'comma-style': 1, // enforce one true comma style (off by default)
         'computed-property-spacing': 0, // require or disallow padding inside computed properties (fixable)
@@ -300,7 +299,7 @@ module.exports = {
         'arrow-spacing': 0, // require space before/after arrow function's arrow (fixable)
         'constructor-super': 2, // verify calls of super() in constructors
         'generator-star-spacing': 1, //enforce spacing around the * in generator functions (fixable)
-        'no-arrow-condition': 1, // disallow arrow functions where a condition is expected
+        'no-confusing-arrow': 1, // disallow arrow functions where a condition is expected
         'no-class-assign': 2, // disallow modifying variables of class declarations
         'no-const-assign': 2, // disallow modifying variables that are declared using const
         'no-dupe-class-members': 2, // disallow duplicate name in class members
